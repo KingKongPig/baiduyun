@@ -28,22 +28,12 @@
 		</div>
 		<div class="clearFloat"></div>
 	</div>
-	<div id="list_body">
-		<div id="body_header" class="pad_lef">
-			<span id="quanbuwenjian">全部文件</span> <span id="yijiazai">已全部加载</span>
-			<div class="clearFloat"></div>
-		</div>
-		<table id="list_content">
-			<thead>
-				<tr>
-					<td id="wenjianming" class="cont_pad_lef"><input class="chbox"
-						type="checkbox"><span>文件名</span>
-						<div class="clearFloat"></div></td>
-					<td id="daxiao">大小</td>
-					<td id="riqi">修改日期</td>
-				</tr>
-			</thead>
-		</table>
-	</div>
+    <div id="upload">
+        <form action="">
+            <input id="input_file" type="file">
+            <input id="input_submit" type="submit" value="上传">
+        </form>
+        <img src="img/upload.PNG">
+    </div>
 </body>
 </html>
